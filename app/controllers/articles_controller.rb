@@ -1,11 +1,6 @@
 class ArticlesController < ApplicationController
   skip_before_action :verify_authenticity_token
 
-  def index
-    @articles = Article.all
-    render json: {articles: @articles}
-  end
-
   def show
     @article = Article.find_by(slug: params[:slug])
     render json: {article: @article}
