@@ -4,6 +4,7 @@ Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
   config.hosts << "ec2-54-178-233-191.ap-northeast-1.compute.amazonaws.com"
   config.hosts << "54.178.233.191"
+  config.hosts << "vehicleminders.com"
   # Code is not reloaded between requests.
   config.cache_classes = true
 
