@@ -1,4 +1,5 @@
 FROM ruby:3.1
+RUN apt-get update && apt-get install -y vim
 ARG RUBYGEMS_VERSION=3.3.20
 RUN mkdir /real-world
 WORKDIR /real-world
