@@ -8,6 +8,7 @@ Rails.application.configure do
   config.hosts << "vehicleminders.com"
   config.hosts << "10-0-4-189.ap-northeast-1.compute.internal"
   config.hosts << "ip-10-0-23-236.ap-northeast-1.compute.internal"
+  config.hosts << "real-world-load-balancer-67485388.ap-northeast-1.elb.amazonaws.com"
   config.host_authorization = { 
   exclude: -> (request) { request.path == '/api/articles/how-to-train-your-dragon' }
 }
