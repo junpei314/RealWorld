@@ -6,6 +6,10 @@ Rails.application.configure do
   config.hosts << "54.178.233.191"
   config.hosts << "18.180.6.139"
   config.hosts << "vehicleminders.com"
+  config.hosts << "10-0-4-189.ap-northeast-1.compute.internal"
+  config.hosts << "ip-10-0-23-236.ap-northeast-1.compute.internal"
+
+  
   # Code is not reloaded between requests.
   config.cache_classes = true
 
