@@ -25,3 +25,6 @@ Things you may want to cover:
 
 提出QUEST ステップ1
 [RealWorld](https://vehicleminders.com/)
+
+提出QUEST ステップ2
+![AWSアーキテクチャ](/documents/RealWorld.png)
